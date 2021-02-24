@@ -1,0 +1,10 @@
+{
+    "name": "eSewa Payment Gateway",
+    "namespace": "Subash\\Esewa\\",
+    "provider": "Subash\\Esewa\\Providers\\EsewaServiceProvider",
+    "author": "Subash Bhattarai",
+    "url": "https://bsubash.com.np",
+    "version": "1.0",
+    "description": "eSewa payment gateway integration",
+    "require": []
+}
