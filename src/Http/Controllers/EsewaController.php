@@ -5,14 +5,15 @@ namespace Subash\Esewa\Http\Controllers;
 use Botble\Payment\Enums\PaymentStatusEnum;
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Http\Responses\BaseHttpResponse;
-use Botble\Payment\Services\Traits\PaymentTrait;
+//use Botble\Payment\Services\Traits\PaymentTrait; //removed in newer versions: uncommend for older versions
 use OrderHelper;
 use Illuminate\Http\Request;
+use Botble\Payment\Supports\PaymentHelper; //added in newer versions: commend for newer versions
 use Throwable;
 
 class EsewaController extends BaseController
 {
-    use PaymentTrait;
+    //use PaymentTrait; //removed in newer versions: uncommend for older versions
 
     /**
      * @param Request $request
